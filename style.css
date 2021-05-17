@@ -1,0 +1,47 @@
+*{
+     margin: 0;
+padding: 0;
+}
+
+body
+{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+#container
+{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5%;
+     width: 400px;
+     height: 200px;
+
+     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);}
+button
+{
+     border-radius: 50%;
+width: 70px;
+height: 70px;
+margin: 10px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#red_btn
+{
+     background-image: linear-gradient(to right top, #ff1328, #ff3848, #ff5263, #ff687d, #fb7d93);     border-radius: 50%;
+}
+#yellow_btn
+{
+     background-image: linear-gradient(to right top, #f9f903, #f4f830, #eff646, #eaf458, #e6f267);     border-radius: 50%;
+}
+#green_btn
+{
+     background-image: linear-gradient(to right top, #085c04, #187e09, #29a10f, #3bc515, #4feb19);}
+button:hover{
+     cursor: pointer;
+ }
